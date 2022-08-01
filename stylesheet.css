@@ -1,0 +1,183 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+	color: #24292e;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+img{
+	max-width: 100%;
+}
+
+/* header----- */
+header .container{
+	height:270px;
+	display: flex;
+	max-width: 960px;
+	padding: 0 50px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-img{
+	font-size: 32px;
+}
+
+nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+
+nav img{
+	width: 20px;
+}
+
+header li{
+	margin-left: 30px;
+	font-size: 14.4px;
+}
+
+header li a{
+	color: #24292e;
+}
+
+
+/* main----- */
+.main-img{
+	object-fit: none;
+	height: 420px;
+	margin-bottom: 80px;
+}
+
+/* ----wrapper*/
+.wrapper{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+/* -----about*/
+.about{
+	margin-bottom: 130px;
+}
+
+.title{
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 65px;
+}
+
+.about ul{
+	margin-bottom: 30px;
+	font-size: 14.4px;
+}
+
+.about p{
+	font-size: 14.4px;
+}
+
+/* -----works*/
+.works{
+	margin-bottom: 130px;
+}
+.works ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.works li{
+	width: 31%;
+	margin-bottom: 23px;
+}
+
+/* -----news */
+.news{
+	margin-bottom: 130px;
+}
+
+.news dl{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	border-top: solid 1px #C8C8C8;
+
+}
+
+.news dt{
+	width: 20%;
+	padding: 15px;
+
+	border-bottom: solid 1px #C8C8C8;
+}
+
+.news dd{
+	width: 80%;
+	padding: 15px;
+	border-bottom: solid 1px #C8C8C8;
+}
+
+/* -----contact */
+.contact{
+	margin-bottom: 130px;
+}
+
+.contact dl{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.contact dt{
+	width: 15%;
+}
+
+.contact dd{
+	width: 85%;
+	margin-bottom: 10px;
+}
+
+.contact dl input,textarea{
+	width: 100%;
+	border: solid 1px #C8C8C8;
+	padding:10px;
+}
+
+.input-submit{
+	background-color: #24292e;
+	color: white;
+	padding: 15px 0;
+	width: 200px;
+}
+
+.input-submit:hover{
+	background-color: white;
+	color: #24292e;
+	cursor: pointer;
+}
+
+footer{
+	background-color: #24292e;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px 20px;
+}
